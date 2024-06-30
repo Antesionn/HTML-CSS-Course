@@ -1,0 +1,35 @@
+p{
+  font-family: Arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.subtitle{
+  font-weight: 5px;
+  margin-bottom: 20px;
+}
+
+.learn-more-link{
+  color: rgb(68, 85, 132);
+  font-family: Arial;
+  display: block;
+  text-align: center;
+  text-decoration:none;
+  transition: opacity 0.20s;
+}
+
+.learn-more-link:hover
+{
+  text-decoration: underline;
+}
+
+.learn-more-link:active{
+  opacity: 0.6;
+}

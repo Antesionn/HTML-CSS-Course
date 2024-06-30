@@ -1,0 +1,118 @@
+body {
+    padding-top: 65px;
+}
+
+.navbar-flex {
+    background-color: rgb(123, 91, 183);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.home-button-column {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    flex-shrink: 0;
+}
+
+.home-button {
+    border: none;
+    background-color: rgb(123, 91, 183);
+}
+
+.home-button-link {
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.20s;
+}
+
+.home-button-link:hover {
+    color: black;
+}
+
+.searchbox-column {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: 500px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.searchbox {
+    width: 0;
+    font-size: 12px;
+    flex: 1;
+    padding-left: 14px;
+    border: none;
+    border-radius: 50px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    background-color: rgb(238, 237, 237);
+}
+
+.searchbox::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.searchbox:focus {
+    outline: none;
+}
+
+.download-button-column {
+    display: flex;
+    margin-right: 6px;
+    align-items: center;
+    flex-shrink: 0;
+
+}
+
+.download-button {
+    background-color: rgb(123, 91, 183);
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    vertical-align: middle;
+    transition: color 0.20s, background-color 0.20s opacity 0.20s;
+}
+
+.download-button-link {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.download-button:hover {
+    background-color: white;
+}
+
+.download-button-link:hover {
+    color: rgb(123, 91, 183);
+}
+
+.download-button:active {
+    opacity: 0.8;
+}
+
+body {
+    padding-bottom: 1000px;
+}

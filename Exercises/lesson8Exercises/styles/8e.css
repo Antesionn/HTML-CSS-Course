@@ -1,0 +1,62 @@
+p{
+  font-family: Arial;
+}
+
+input{
+    color: rgb(122, 122, 122);
+    background-color: rgb(240, 240, 240);
+    height: 36px;
+    width: 304px;
+    display: block;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+button{
+  cursor: pointer;
+  transition: opacity 0.2s, box-shadow 0.2s;
+  vertical-align: middle;
+  border: none;
+
+}
+
+button:hover{
+    opacity: 0.8;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+button:active{
+    opacity: 0.6;
+  }
+
+.title
+{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.pickup-textbox
+{
+  margin-bottom: 6px;
+}
+
+.destination-textbox{
+  margin-bottom: 26px;
+}
+
+.request-button{
+  color: white;
+  background-color: black;
+  height: 36px;
+  width: 108px;
+  margin-right: 12px;
+}
+
+.schedule-button{
+ color: black;
+ background-color: rgb(211, 211, 211);
+ height: 40px;
+ width: 134px;
+ font-weight: 550;
+}
